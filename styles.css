@@ -13,6 +13,10 @@ header {
   padding: 20px 200px;
 }
 
+.logo {
+  max-height: 75px;
+}
+
 header a {
   text-decoration: none;
   color: #e5e7eb;
@@ -49,12 +53,7 @@ header ul {
 }
 
 .placeholder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: gray;
-  width: 450px;
-  height: 200px;
+  max-width: 450px;
 }
 
 button {
@@ -76,7 +75,8 @@ button:active {
 
 .left-side p {
   margin: 15px 0;
-  color: #e5e7eb;
+  color: #e5e7eb9a;
+  color: ;
 }
 
 h1 {
@@ -93,7 +93,7 @@ h1 {
   flex-direction: column;
   min-height: 500px;
   padding: 0 200px;
-  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .sec2-title {
@@ -107,13 +107,14 @@ h1 {
 .sec2-img {
   width: 200px;
   height: auto;
-  border: 5px solid #3882f6;
+  border: 5px solid #1f2937;
   border-radius: 15px;
 }
 
 .sec2-img-div {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 figure {
@@ -123,6 +124,7 @@ figure {
 figcaption {
   max-width: 200px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 /* section three */
@@ -155,7 +157,7 @@ figcaption {
 /* section four */
 
 .sec-four {
-  height: 300px;
+  min-height: 300px;
   padding: 0 200px;
   display: flex;
   justify-content: center;
@@ -168,13 +170,13 @@ figcaption {
   align-items: center;
   background: #3882f6;
   color: #f9faf8;
-  height: 150px;
+  min-height: 150px;
   width: 66vw;
 }
 
 .sec-four button {
   height: 35px;
-  width: 120px;
+  min-width: 120px;
   border: 3px solid #f9faf8;
   border-radius: 15px;
   background: #3882f6;
@@ -192,7 +194,7 @@ footer {
   display: flex;
   height: 75px;
   background: #1f2937;
-  color: #f9faf8;
+  color: #e5e7eb9a;
   justify-content: center;
   align-items: center;
 }
