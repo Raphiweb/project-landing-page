@@ -54,6 +54,7 @@ header ul {
 
 .placeholder {
   max-width: 450px;
+  border-radius: 15px;
 }
 
 button {
@@ -71,6 +72,10 @@ button {
 button:active {
   background: #f9faf8;
   color: #3882f6;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 .left-side p {
@@ -186,6 +191,10 @@ figcaption {
 .sec-four button:active {
   background: #f9faf8;
   color: #3882f6;
+}
+
+.sec-four button:hover {
+  cursor: pointer;
 }
 
 /* footer */
