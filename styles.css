@@ -7,20 +7,32 @@ body {
 /* header */
 header {
   display: flex;
-  height: 75px;
+  height: 55px;
   justify-content: space-between;
   background: #1f2937;
-  padding: 20px 200px;
+  padding: 10px 200px;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
-  max-height: 75px;
+  max-height: 55px;
+  margin-right: 10px;
 }
 
 header a {
   text-decoration: none;
   color: #e5e7eb;
+  border: 2px solid #e5e7eb00;
+  border-radius: 10px;
   font-size: 18px;
+  transition: 0.35s;
+  padding: 5px 10px;
+}
+
+header ul a:hover {
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
 }
 
 header ul {
@@ -55,6 +67,11 @@ header ul {
 .placeholder {
   max-width: 450px;
   border-radius: 15px;
+  transition: max-width 0.5s;
+}
+
+.placeholder:hover {
+ max-width: 475px;
 }
 
 button {
@@ -67,6 +84,8 @@ button {
   font-size: 16px;
   font-weight: bold;
   padding: 0;
+  border: 2px solid #e5e7eb00;
+  transition: border 0.35s;
 }
 
 button:active {
@@ -76,12 +95,12 @@ button:active {
 
 button:hover {
   cursor: pointer;
+  border: 2px solid #e5e7eb;
 }
 
 .left-side p {
   margin: 15px 0;
   color: #e5e7eb9a;
-  color: ;
 }
 
 h1 {
@@ -180,12 +199,14 @@ figcaption {
 }
 
 .sec-four button {
-  height: 35px;
+  height: 42px;
   min-width: 120px;
+  padding: 5px;
   border: 3px solid #f9faf8;
   border-radius: 15px;
   background: #3882f6;
   color: #f9faf8;
+  transition: all 0.35s;
 }
 
 .sec-four button:active {
@@ -195,6 +216,9 @@ figcaption {
 
 .sec-four button:hover {
   cursor: pointer;
+  border: 3px solid #e5e7eb00;
+  border-radius: 15px;
+  border: 7px solid #f9faf8;
 }
 
 /* footer */
